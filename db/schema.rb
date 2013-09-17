@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130917145920) do
+ActiveRecord::Schema.define(:version => 20130917155418) do
 
   create_table "moons", :force => true do |t|
     t.string   "name"
@@ -27,7 +27,6 @@ ActiveRecord::Schema.define(:version => 20130917145920) do
     t.integer  "orbit_duration"
     t.integer  "diameter"
     t.integer  "mass"
-    t.integer  "moons"
     t.datetime "created_at",     :null => false
     t.datetime "updated_at",     :null => false
   end
