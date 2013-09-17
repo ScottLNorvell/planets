@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  image_url: MyString
+  orbit_duration: 1
+  diameter: 1
+  mass: 1
+  moons: 1
+
+two:
+  name: MyString
+  image_url: MyString
+  orbit_duration: 1
+  diameter: 1
+  mass: 1
+  moons: 1
